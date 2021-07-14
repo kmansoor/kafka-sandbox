@@ -1,0 +1,12 @@
+#spring:
+#  kafka:
+#    bootstrap-servers:
+#      - localhost:9092
+#    properties:
+#      # CCloud Schema Registry Connection parameter
+#      schema.registry.url: http://localhost:18081
+#    consumer:
+#      group-id: group_id
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
